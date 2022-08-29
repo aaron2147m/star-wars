@@ -14,7 +14,7 @@ app.listen(3000, function() {
   })
 
 
-MongoClient.connect('mongodb+srv://aaron2147m:hello@cluster0.ktdc8cl.mongodb.net/?retryWrites=true&w=majority',{
+MongoClient.connect('mongodb+srv://username:password@cluster0.ktdc8cl.mongodb.net/?retryWrites=true&w=majority',{
 useUnifiedTopology: true })
   .then(client => {
    console.log('Connected to Database')
